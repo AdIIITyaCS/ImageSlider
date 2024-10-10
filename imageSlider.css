@@ -1,0 +1,42 @@
+*{
+  margin: auto;
+  padding: 0;
+}
+
+main{
+  width: 40vw;
+  height: 60vh;
+  border: 2px solid black;
+  border-radius: 100px;
+  margin: auto;
+  margin-top: 50px;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.slider
+{
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+
+}
+.nav{
+  text-align: center;
+  margin-top: 15px;
+}
+.nav button{
+  border: 2px solid rgb(147, 136, 136);
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 5px;
+  font-weight: 900;
+  font-style: italic;
+  font-family: 'Trebuchet MS';
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 80px;
+}
